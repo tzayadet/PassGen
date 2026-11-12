@@ -9,6 +9,8 @@ A browser-based password generator using the Web Crypto API. It runs locally in 
 
 [![Pages deployment](https://github.com/tzayadet/PassGen/actions/workflows/static.yml/badge.svg)](https://github.com/tzayadet/PassGen/actions/workflows/static.yml)
 
+[![Quality checks](https://github.com/tzayadet/PassGen/actions/workflows/quality.yml/badge.svg)](https://github.com/tzayadet/PassGen/actions/workflows/quality.yml)
+
 ## Features
 
 - Configurable password length and quantity.
@@ -34,6 +36,16 @@ Open the [live demo](https://tzayadet.github.io/PassGen/) or download the reposi
 Generation uses `crypto.getRandomValues()` in the browser. Passwords are generated locally and are not sent to a project backend.
 
 Password security also depends on length, uniqueness, storage and the service where a password is used. Avoid reuse and protect exported files.
+
+## Validation
+
+The quality workflow checks the inline JavaScript syntax and verifies that password generation uses the Web Crypto API:
+
+```bash
+python scripts/validate_site.py
+```
+
+Requires Python 3.11+ and Node.js 22+.
 
 ## Deployment
 
