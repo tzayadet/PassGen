@@ -1,38 +1,30 @@
-# PASS://GENERATOR
+# Password Generator
+
+Generador de contraseñas aleatorias en el navegador, con controles de longitud, composición y exportación. La generación utiliza la API criptográfica del navegador; no necesita backend.
 
 [![Pages deployment](https://github.com/tzayadet/PassGen/actions/workflows/static.yml/badge.svg)](https://github.com/tzayadet/PassGen/actions/workflows/static.yml)
 
-Generador de contraseñas aleatorias con controles configurables y generación criptográfica desde el navegador.
+**Demo:** [abrir Password Generator](https://tzayadet.github.io/PassGen/) · **Código:** [repositorio](https://github.com/tzayadet/PassGen)
 
-**Demo:** https://tzayadet.github.io/PassGen/  
-**Código:** https://github.com/tzayadet/PassGen
+## Funciones
 
-## Funcionalidades
-
-- Longitud configurable.
-- Selección de mayúsculas, minúsculas, números y símbolos.
-- Exclusión de caracteres visualmente similares o ambiguos.
-- Opción para garantizar la presencia de los grupos de caracteres seleccionados.
-- Generación de varias contraseñas en una operación.
-- Copia individual o conjunta al portapapeles.
-- Exportación de resultados a TXT.
-- Interfaz adaptable con validación de configuración.
+- Longitud y cantidad configurables.
+- Mayúsculas, minúsculas, números y símbolos seleccionables.
+- Exclusión de caracteres ambiguos.
+- Garantía de inclusión de los grupos elegidos.
+- Copia individual o conjunta y exportación TXT.
 
 ## Uso
 
-Abre la [demo](https://tzayadet.github.io/PassGen/), configura los grupos de caracteres, la longitud y la cantidad, y genera las contraseñas.
+Abre la demo, ajusta la composición y genera las contraseñas. También puedes descargar el repositorio y abrir `index.html` localmente.
 
-También puedes descargar el repositorio y abrir `index.html` localmente.
+## Seguridad y privacidad
 
-## Tecnología y seguridad
-
-La generación utiliza la API criptográfica del navegador (`Crypto.getRandomValues`). No se necesita una cuenta ni un backend propio.
-
-La seguridad de una contraseña también depende de su almacenamiento y del servicio donde se utilice. No reutilices contraseñas y evita guardar las generadas en ubicaciones compartidas o sin protección.
+La generación usa `Crypto.getRandomValues()` en el navegador. No se envían las contraseñas a un backend. Evita reutilizarlas y no guardes los resultados en ubicaciones compartidas o sin protección.
 
 ## Despliegue
 
-Aplicación estática publicada mediante GitHub Pages. El workflow publica únicamente `index.html`; la generación se realiza en el navegador y no requiere backend.
+Sitio estático publicado mediante GitHub Pages. No requiere servidor.
 
 ## Licencia
 
