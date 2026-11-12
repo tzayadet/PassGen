@@ -32,7 +32,7 @@ La seguridad de una contraseña también depende de su almacenamiento y del serv
 
 ## Despliegue
 
-Aplicación estática publicada mediante GitHub Pages. La generación se realiza en el navegador.
+Aplicación estática publicada mediante GitHub Pages. El workflow publica únicamente `index.html`; la generación se realiza en el navegador y no requiere backend.
 
 ## Licencia
 
