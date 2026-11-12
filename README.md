@@ -1,5 +1,7 @@
 # PASS://GENERATOR
 
+[![Pages deployment](https://github.com/tzayadet/PassGen/actions/workflows/static.yml/badge.svg)](https://github.com/tzayadet/PassGen/actions/workflows/static.yml)
+
 Generador de contraseñas aleatorias con controles configurables y generación criptográfica desde el navegador.
 
 **Demo:** https://tzayadet.github.io/PassGen/  
