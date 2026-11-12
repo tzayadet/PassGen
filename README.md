@@ -1,52 +1,44 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/SECURITY_UTILITY-PASSWORD_GENERATOR-101010?style=for-the-badge&labelColor=050805&color=00FF41" alt="Password Generator"/>
-  <img src="https://img.shields.io/badge/BROWSER-NATIVE_CRYPTO-101010?style=for-the-badge&logo=googlechrome&logoColor=00FF41" alt="Browser native crypto"/>
-</p>
-
 # Password Generator
 
-Generador de contraseñas en el navegador con controles de longitud, composición y exportación. Utiliza la API criptográfica del navegador y no necesita backend.
+A browser-based password generator using the Web Crypto API. It runs locally in the browser and does not require an account, backend or installation.
 
 <p align="center">
-  <a href="https://tzayadet.github.io/PassGen/"><strong>LIVE DEMO ↗</strong></a> ·
-  <a href="https://github.com/tzayadet/PassGen"><strong>SOURCE CODE</strong></a>
+  <a href="https://tzayadet.github.io/PassGen/"><img src="https://img.shields.io/badge/LIVE_DEMO-OPEN-00a86b?style=flat-square" alt="Live demo"></a>
+  <a href="https://github.com/tzayadet/PassGen"><img src="https://img.shields.io/badge/SOURCE-GITHUB-161b22?style=flat-square&logo=github" alt="Source"></a>
 </p>
 
 [![Pages deployment](https://github.com/tzayadet/PassGen/actions/workflows/static.yml/badge.svg)](https://github.com/tzayadet/PassGen/actions/workflows/static.yml)
 
 ## Features
 
-- Longitud y cantidad configurables.
-- Selección de mayúsculas, minúsculas, números y símbolos.
-- Exclusión de caracteres ambiguos.
-- Inclusión garantizada de los grupos seleccionados.
-- Copia individual o conjunta.
-- Exportación de resultados a TXT.
+- Configurable password length and quantity.
+- Uppercase, lowercase, numeric and symbol character sets.
+- Optional exclusion of ambiguous characters.
+- Ensures selected character groups are represented.
+- Individual or bulk clipboard copy.
+- TXT export.
 
 ## Use it
 
-Abre la [demo web](https://tzayadet.github.io/PassGen/) en un navegador moderno o descarga el repositorio y abre `index.html`.
-
-No necesita instalación, cuenta ni servidor.
-
-## Security & privacy
-
-La generación utiliza `Crypto.getRandomValues()` en el navegador. Las contraseñas se generan localmente y no se envían a un backend.
-
-La seguridad de una contraseña también depende de su longitud, unicidad, almacenamiento y del servicio donde se utilice. No reutilices contraseñas ni guardes exportaciones en ubicaciones compartidas o sin protección.
+Open the [live demo](https://tzayadet.github.io/PassGen/) or download the repository and open `index.html` in a modern browser.
 
 ## Technology
 
-- HTML5
-- CSS3
+- HTML5 and CSS3
 - JavaScript
 - Web Crypto API
 - Clipboard API
 
+## Security and privacy
+
+Generation uses `crypto.getRandomValues()` in the browser. Passwords are generated locally and are not sent to a project backend.
+
+Password security also depends on length, uniqueness, storage and the service where a password is used. Avoid reuse and protect exported files.
+
 ## Deployment
 
-Aplicación estática publicada mediante GitHub Pages. El navegador ejecuta toda la funcionalidad; no hay backend propio.
+Static browser application published through GitHub Pages. No project backend is required.
 
 ## License
 
-See [LICENSE](LICENSE).
+See [LICENSE](LICENSE) for the repository's licensing terms.
