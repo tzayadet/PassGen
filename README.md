@@ -3,7 +3,7 @@
 A browser-based password generator using the Web Crypto API. It runs locally in the browser and does not require an account, backend or installation.
 
 <p align="center">
-  <a href="https://tzayadet.github.io/PassGen/"><img src="https://img.shields.io/badge/LIVE_DEMO-OPEN-00a86b?style=flat-square" alt="Live demo"></a>
+  <a href="https://tzayadet.github.io/PassGen/"><strong>LIVE DEMO ↗</strong></a> ·
   <a href="https://github.com/tzayadet/PassGen"><img src="https://img.shields.io/badge/SOURCE-GITHUB-161b22?style=flat-square&logo=github" alt="Source"></a>
 </p>
 
